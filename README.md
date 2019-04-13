@@ -10,3 +10,8 @@ license!). Compiles with latexmk. Derived from [this CV repo](https://github.com
 - Ensure latexmk is installed.
 - Run make (Check makefiles for other options)
 - Profit
+
+## License
+
+The [MIT license](https://choosealicense.com/licenses/mit/) seems appropriate for the template. Content is my own, so please
+do not use that, under a [creative commons BY-NC-SA license](http://creativecommons.org/licenses/by-nc-sa/4.0/).
