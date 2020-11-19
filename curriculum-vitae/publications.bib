@@ -1,3 +1,34 @@
+@article{GoswamiTopo2020,
+  author          = "Goswami, Amrita and Singh, Jayant K.",
+  title           = "A general topological network criterion for exploring the
+                  structure of icy nanoribbons and monolayers",
+  journal         = "Phys. Chem. Chem. Phys.",
+  year            = 2020,
+  volume          = 22,
+  issue           = 7,
+  pages           = "3800-3808",
+  publisher       = "The Royal Society of Chemistry",
+  doi             = "10.1039/C9CP04902A",
+  url             = "http://dx.doi.org/10.1039/C9CP04902A",
+  keywords        = {journal},
+  abstract        = "We develop intuitive metrics for quantifying complex
+                  nucleating systems under confinement. These are shown to arise
+                  naturally from the analysis of the topological ring network{,}
+                  and are amenable for use as order parameters for such systems.
+                  Drawing inspiration from qualitative visual inspection{,} we
+                  introduce a general topological criterion for elucidating the
+                  ordered structures of confined water{,} using a graph
+                  theoretic approach. Our criterion is based on primitive
+                  rings{,} and reinterprets the hydrogen-bond-network in terms
+                  of these primitives. This approach has no a priori
+                  assumptions{,} except the hydrogen bond definition{,} and may
+                  be used as an exploratory tool for the automated discovery of
+                  new ordered phases. We demonstrate the versatility of our
+                  criterion by applying it to analyse well-known monolayer ices.
+                  Our methodology is then extended to identify the building
+                  blocks of one-dimensional n-sided prismatic nanoribbon ices.",
+}
+
 @article{GoswamiJCIM2020,
   author          = {Goswami, Rohit and Goswami, Amrita and Singh, Jayant Kumar},
   title           = {d-SEAMS: Deferred Structural Elucidation Analysis for
@@ -59,42 +90,25 @@
   eprint          = { https://doi.org/10.1021/acs.jpcc.9b11531 }
 }
 
-@article{GoswamiTopo2020,
-  author          = "Goswami, Amrita and Singh, Jayant K.",
-  title           = "A general topological network criterion for exploring the
-                  structure of icy nanoribbons and monolayers",
-  journal         = "Phys. Chem. Chem. Phys.",
+@article{GoswamiJCP2020,
+  author          = {Amrita Goswami and Indranil Saha Dalal and Jayant K. Singh},
+  title           = {Seeding method for ice nucleation under shear},
+  journal         = {The Journal of Chemical Physics},
+  volume          = 153,
+  number          = 9,
+  pages           = {094502},
   year            = 2020,
-  volume          = 22,
-  issue           = 7,
-  pages           = "3800-3808",
-  publisher       = "The Royal Society of Chemistry",
-  doi             = "10.1039/C9CP04902A",
-  url             = "http://dx.doi.org/10.1039/C9CP04902A",
   keywords        = {journal},
-  abstract        = "We develop intuitive metrics for quantifying complex
-                  nucleating systems under confinement. These are shown to arise
-                  naturally from the analysis of the topological ring network{,}
-                  and are amenable for use as order parameters for such systems.
-                  Drawing inspiration from qualitative visual inspection{,} we
-                  introduce a general topological criterion for elucidating the
-                  ordered structures of confined water{,} using a graph
-                  theoretic approach. Our criterion is based on primitive
-                  rings{,} and reinterprets the hydrogen-bond-network in terms
-                  of these primitives. This approach has no a priori
-                  assumptions{,} except the hydrogen bond definition{,} and may
-                  be used as an exploratory tool for the automated discovery of
-                  new ordered phases. We demonstrate the versatility of our
-                  criterion by applying it to analyse well-known monolayer ices.
-                  Our methodology is then extended to identify the building
-                  blocks of one-dimensional n-sided prismatic nanoribbon ices.",
+  doi             = {10.1063/5.0021206},
+  URL             = { https://doi.org/10.1063/5.0021206 },
+  eprint          = { 2006.14919 }
 }
 
 @online{gos2020prlarxiv,
   Author          = {Amrita Goswami and Indranil Saha Dalal and Jayant K. Singh},
-  Title           = {Seeding Method For Ice Nucleation Under Shear},
+  Title           = {Universal Nucleation Behaviour of Sheared Systems},
   Year            = 2020,
-  Eprint          = {2006.14919},
+  Eprint          = {2011.01020},
   Eprinttype      = {arXiv},
   keywords        = {preprint}
 }
@@ -116,5 +130,16 @@
                   performance clusters and parallelization are also derived.},
   keywords        = {conference},
   doi             = {10.23919/URSIAP-RASC.2019.8738612},
+  month           = 3,
+}
+
+@INPROCEEDINGS{gosACStopo2019,
+  author          = {Amrita Goswami and Jayant K. Singh},
+  booktitle       = {ACS Spring 2020 National Meeting & Expo},
+  title           = {General topological network criteria and implementation for monolayers and ice nanotubes},
+  year            = 2020,
+  abstract        = {We present a family of general topological criteria, for the determination of structures of quasi-one-dimensional and quasi-two-dimensional ices. Confined systems are characterized by a plethora of diverse ordered structures and interesting hydrogen-bond-networks (HBNs), distinct from those formed in the bulk. Our methodology has no a-priori assumptions, and can be used as an exploratory tool for probing confined ice structures. In our recipe, primitive rings are identified, and further, only connections corresponding to hydrogen bonds are permitted. The prism identification scheme developed identifies prismatic units, which are the building blocks of ice nanotubes (INTs). In addition, we formulate novel and intuitive order parameters based on our topological network criteria, which are able to qualitatively and accurately describe phase transitions.We have subsumed this methodology into a framework developed for the analysis of Molecular Simulations. The software framework is powered by our FOSS engine, d-SEAMS (deferred Structural Elucidation Analysis of Molecular Simulations). The ability to extend trivially, with best practices, our software is demonstrated by our ability to rapidly implement algorithms, like the graph theoretical structure families above. Our engine is intuitive to work with and abstracts away from the user much of the repetitive tooling which is part of every molecular simulation analysis to allow the researcher to focus on results. Among other features, d-SEAMS is able to classify ice structures across all scales, from nanoscale confinement to bulk. d-SEAMS has a unique work-flow, designed to be simultaneously customizable and easy-to-use. d-SEAMS is built reproducibly with nix, using deterministic cryptographic hashes for the dependency build graph. Lua-scripting and YAML inputs enable users to specify pre-defined work-flows and variables respectively. The outputs produced by d-SEAMS are consumable by popular graphics software suites, for immediate visual insights into the systems studied.},
+  keywords        = {conference},
+  doi             = {10.1021/scimeetings.0c00176},
   month           = 3,
 }
