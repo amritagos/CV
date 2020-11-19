@@ -100,7 +100,8 @@
 	sorting=none,
 	minbibnames=8,
 	maxbibnames=9,
-	block=space
+	block=space,
+  defernumbers=true
 ]{biblatex}
 
 \bibliography{publications}
@@ -247,24 +248,11 @@ Scale=MatchLowercase]{MyriadPro}
 
 \spacesection
 \section{Education}
-\cventry{\textsc{2016--present}}{MS-Ph.D. Chemical Engineering}{Indian Institute of Technology}{Kanpur}{\emph{India}}{$8.75$ CGPA (\textsc{Advisor: } Prof. Jayant K. Singh); \textsc{Co-Advisor: } Prof. Indranil Saha Dalal)}
+\cventry{\textsc{2016--present}}{MS-Ph.D. Chemical Engineering}{Indian Institute of Technology}{Kanpur}{\emph{India}}{$8.75$ CGPA (\textsc{Advisor: } Prof. Jayant K. Singh; \textsc{Co-Advisor: } Prof. Indranil Saha Dalal)}
 %\cventry{\textsc{1939--1941}}{M.Sc. Chemistry}{University Extension}{New York}{\emph{United States}}{}
 \cventry{\textsc{2012--2016}}{B.Tech. Chemical Engineering}{Harcourt Butler Technical University}{Kanpur}{\emph{India}}{$72.36\%$ First Division (\textsc{Project: } Sulphur Acid Production optimization via the Chamber Process)}
 \cventry{\textsc{2008--2010}}{Intermediate (AISSCE)}{The Jain International School}{Kanpur}{\emph{India}}{$85\%$ Central Board of Secondary Education (CBSE)}
 \cventry{\textsc{2006--2008}}{High School (AISSE)}{Delhi Public School Kalyanpur}{Kanpur}{\emph{India}}{$93\%$ Central Board of Secondary Education (CBSE)}
-
-\spacesection
-\section{Experience}
-\subsection{Internships}
-\cventry{\textsc{Summer 2015}}{Prof. Krishanu Ray}{Tata Institute for Fundamental Research, Mumbai}{}{VSRP Fellow}{Worked on micro-channel flow modeling with OpenFOAM and produced a working prototype with the machine shop of TIFR. Also attended lectures over eight weeks as a part of the program. \\~
- \textsc{Project Report: }Design of a flow-cell for TIRFM imagining of Kinesin-2}
-\cventry{\textsc{Winter 2014}}{Prof. Animangsu Ghatak}{Indian Institute of Technology Kanpur}{}{Research Intern}{Worked on the imaging of programmable micro-lenses of oil on a PDMS substrate.}
-
-\subsection{Volunteer Work}
-
-\cventry{\textsc{2017--2018}}{ChemE Research Scholar Day}{Indian Institute of Technology, Kanpur}{}{Anchor}{Managed and spearheaded the festivities of the research oriented student presentations and posters.}
-
-\cventry{\textsc{2012--2016}}{The Curiosity Magazine}{Harcourt Butler Technical University, Kanpur}{}{Editor-in-Chief}{Managed a diverse team of student content writers and rose from the ranks of writer in first year to the Editor-in-Chief by the third year.}
 
 % Consider downgrading to the bottom
 \section{Technical Skills}
@@ -274,11 +262,12 @@ Scale=MatchLowercase]{MyriadPro}
 \cvdoubleitem{\textsc{Experienced}}{C++(11,17), FORTRAN 90, Tcl, R, C99, Shell (zsh,bash)}
            {\textsc{Familiar}}{Julia, Python(2.7 and 3.6), FORTRAN 2008}
 
-\newpage
+% \newpage
+\spacesubsection
 \subsection{Simulation Packages}
 \spacesubsection
 
-\cvdoubleitem{\textsc{Experienced}}{LAMMPS (Large-scale Atomic/Molecular Massively Parallel Simulator) for Nucleation, Nanoparticles and wetting, VMD (Visual Molecular Dynamics), Ovito}
+\cvdoubleitem{\textsc{Experienced}}{LAMMPS (Large-scale Atomic /Molecular Massively Parallel Simulator) for Nucleation, Nanoparticles and wetting, VMD (Visual Molecular Dynamics), Ovito}
            {\textsc{Familiar}}{\es \space(Extensible Simulation Package for Research on Soft matter), OpenFOAM, GROMACS (GROningen MAchine for Chemical Simulations), AMBER}
 
 \spacesubsection
@@ -292,56 +281,99 @@ Scale=MatchLowercase]{MyriadPro}
 % \subsection{Operating Systems}
 % \cvdoubleitem{\textsc{Preferred}}{ArchLinux}
 %            {\textsc{Experienced}}{Windows (95, 2000, XP, 7, 8, 10), MacOS (10.7, 10.11, 10.12), Android (1.5, 1.6, 2.2.*, 2.3.*, 4.0.*, 4.4.*, 5.0.*, 6.0.*, 7.* ), Linux Distros (Ubuntu, Sabyon, Puppy, Manjaro, Debian, Red Hat (CentOS))}
+\newpage
+% \spacesection
+\section{Research Topics}
+\cvdoubleitem{\textsc{Experienced}}{Ice nucleation, NEMD, Molecular Dynamics simulations, Phase transitions, Classical Nucleation Theory, Structure elucidation, High performance open source software, Scientific Software Development }
+           {\textsc{Interested}}{Molecular modeling, Free energy analysis, Optimal time-stepping methods, Accelerated simulations, HPC Algorithms}
 
 \spacesection
-\section{Research Interests}
-\cvdoubleitem{\textsc{Experienced}}{Nucleation, NEMD, Molecular Dynamics simulations, Phase transitions, Thermodynamics, Statistical Mechanics, Structure elucidation, High performance open source software }
-           {\textsc{Interested}}{Molecular modeling, Free energy analysis, Optimal time-stepping methods, Accelerated simulations, Optics}
-
-\spacesection
-\section{Affiliations \& Accolades}
+\section{Accolades \& Affiliations}
+\subsection{Awards}
+\spacesubsection
+\cventry{\textsc{November 2019}}{RSC Physical Chemistry Chemical Physics Poster Prize}{DAE Computational Chemistry Symposium, BARC, India}{}{}{}
+\cventry{\textsc{February 2020}}{Springer Poster Award}{Molecular Simulations of Complex Fluids and Interfaces, IIT Kanpur}{}{}{}
+\cventry{\textsc{November 2019}}{Hot PCCP Article}{}{Article selected as a '2019 HOT PCCP Article', and as an inside front cover}{}{}
+% \cventry{\textsc{2014}}{Resonance Short Story Competition}{Harcourt Butler Technological Institute, Kanpur}{First Prize}{}{}
+\spacesubsection
 \subsection{Memberships}
 \spacesubsection
 \cventry{\textsc{2014--present}}{AIChE (American Institute Of Chemical Engineers)}{Student Member}{}{}{}
 \cventry{\textsc{2018--present}}{OSA (Optical Society of America)}{Student Member}{}{}{}
 
-\spacesubsection
-\subsection{Awards}
-\spacesubsection
-\cventry{\textsc{7-9 November 2019}}{Physical Chemistry Chemical Physics Poster Prize}{DAE Computational Chemistry Symposium, BARC, India}{A Family of General Topological Network Criteria for Confined Ice Structure Determination}{}{}
-\cventry{\textsc{21-23 February 2019}}{Springer Poster Award}{Molecular Simulations of Complex Fluids and Interfaces, IIT Kanpur}{Formulation and Implementation of General Topological Network Criteria for Exploring the Structures of Confined Ice}{}{}
-% \cventry{\textsc{2014}}{Resonance Short Story Competition}{Harcourt Butler Technological Institute, Kanpur}{First Prize}{}{}
+\spacesection
+\section{Experience}
+\subsection{Teaching}
+\cventry{\textsc{2016--present}}{Teaching Assistant}{Indian Institute of Technology, Kanpur}{}{I have been a teaching assistant for the undergraduate courses 'Chemical Engineering Thermodynamics' and 'ESO-201, Thermodynamics'}{}
+\cventry{\textsc{July--August 2020}}{Water, Chemicals and more with Computers for Chemistry (WC3m)}{Wave Learning Festival}{15 hour long summer course for high school students and undergraduates on the basics of computational chemistry}{}{}
+\cventry{\textsc{Winter 2020--present}}{NPTEL Chemical Engineering Thermodynamics}{Indian Institute of Technology Kanpur}{}{I am a teaching assistant for an online national course organized by Indian Institutes of Technology and Indian Institute of Science}{}
 
+\subsection{Reviews}
+
+\cventry{\textsc{2019--present}}{Journal of Open Source Software}{Reviewer}{}{}{}
+
+\cventry{\textsc{2019--present}}{PeerJ-Computer Science}{Reviewer}{}{}{}
+
+% PUBLICATIONS
 \spacesection
 \section{Publications}
  {\color{color1}\textsc{Journals}}
 
 \nocite{*}
-\printbibliography[heading=none, env=midbib, keyword=journal]
+% \printbibliography[heading=none, env=midbib, keyword=journal, resetnumbers=true] % no numbering
+\printbibliography[heading=none, keyword=journal, resetnumbers=true] % with numbering
 
-{\color{color1}\textsc{Conference Proceedings}}
-
-\nocite{*}
-\printbibliography[heading=none, env=midbib, keyword=conference]
 
 % Currently none which haven't been published
 {\color{color1}\textsc{Preprints}}
 
 \nocite{*}
-\printbibliography[heading=none, env=midbib, keyword=preprint]
+\printbibliography[heading=none, env=midbib, keyword=preprint, resetnumbers=true]
 
-\section{Conference Records}
-% \subsection{Posters}
+{\color{color1}\textsc{Conference Proceedings}}
+
+\nocite{*}
+% \printbibliography[heading=none, env=midbib, keyword=conference, resetnumbers=true] % without numbering
+\printbibliography[heading=none, keyword=conference, resetnumbers=true] % with numbering
+
+
+
+% \newpage
+\section{Conferences, Symposia \& Workshops}
+\spacesection
+\subsection{Posters}
+\cventry{\textsc{7-9 November 2019}}{DAE Computational Chemistry Symposium, BARC}{Mumbai}{A Family of General Topological Network Criteria for Confined Ice Structure Determination}{}{}
+\cventry{\textsc{21-23 February 2020}}{Molecular Simulations of Complex Fluids and Interfaces}{IIT Kanpur}{Formulation and Implementation of General Topological Network Criteria for Exploring the Structures of Confined Ice}{}{}
 % \cventry{\textsc{March 2019}}{Space Filling Curves: Heuristics For Semi Classical Lasing Computations}{URSI Asia-Pacific Radio Science Conference (AP-RASC 2019)}{R. Goswami, A. Goswami, and D. Goswami}{}{}
 % \cventry{\textsc{December 2018}}{FDTD Numerical Computations for Ultrafast Non-linear Optics}{Photonics-2018}{R. Goswami, A. Goswami, and D. Goswami}{}{}
 
+\spacesection
 \subsection{Attended}
 \cventry{\textsc{December 2017}}{RARE Symposium}{Agra}{}{}{}
+\cventry{\textsc{July 2019}}{Rare Events Summer School}{Indian Institute of Science, Bangalore}{A short course consisting of lectures and hands-on sessions by experts in the field, organized by Prof. Baron Peters}{}{}
+\cventry{\textsc{21 September 2019}}{OpenACC GPU Bootcamp}{Indian Institute of Technology, Kanpur}{Day long programming session and discussion covering the acceleration of Institute in-house code by a Senior NVIDIA Solution Architect}{}{}
 
 \section{Relevant Coursework}
 \cventry{\textsc{2017 Spring}}{Molecular Modelling In Chemistry}{CHM695}{\textsc{Instructor: } Prof. Nisanth Nair}{\bfseries{Grade: A$^{*}$}}{}
 \cventry{\textsc{2017 Fall}}{Intermolecular and Surface Forces}{CHE625A}{\textsc{Instructor: } Prof. Animangsu Ghatak}{\bfseries{Grade: A}}{}
 \cventry{\textsc{2016 Spring}}{Introduction To Molecular Simulations}{CHE622A}{\textsc{Instructor: } Prof. Martin Horsch}{\bfseries{Grade: B}}{}
+
+\spacesection
+\section{Miscellaneous}
+\subsection{Internships}
+\cventry{\textsc{Summer 2015}}{Prof. Krishanu Ray}{Tata Institute for Fundamental Research, Mumbai}{}{VSRP Fellow}{Worked on micro-channel flow modeling with OpenFOAM and produced a working prototype with the machine shop of TIFR. Also attended lectures over eight weeks as a part of the program. \\~
+ \textsc{Project Report: }Design of a flow-cell for TIRFM imagining of Kinesin-2}
+\cventry{\textsc{Winter 2014}}{Prof. Animangsu Ghatak}{Indian Institute of Technology Kanpur}{}{Research Intern}{Worked on the imaging of programmable micro-lenses of oil on a PDMS substrate.}
+
+\subsection{Volunteer Work}
+
+\cventry{\textsc{2017--2018}}{ChemE Research Scholar Day}{Indian Institute of Technology, Kanpur}{}{Anchor}{Managed and spearheaded the festivities of the research oriented student presentations and posters.}
+
+\cventry{\textsc{February 2019}}{FunMolSim Workshop}{Indian Institute of Technology, Kanpur}{Organizer}{Helped organize, designed and taught tutorials at an pedagogical workshop for molecular dynamics}{}
+
+\cventry{\textsc{2017--2020}}{Animal Welfare Group}{Indian Institute of Technology, Kanpur}{}{Member}{Rescued and fostered stray and injured animals.}
+
+% \cventry{\textsc{2012--2016}}{The Curiosity Magazine}{Harcourt Butler Technical University, Kanpur}{}{Editor-in-Chief}{Managed a diverse team of student content writers and rose from the ranks of writer in first year to the Editor-in-Chief by the third year.}
 
 %{\color{color1}\textsc{Fictional Writings}}
 %\printbibliography[heading=none, env=midbib, keyword=fiction]
